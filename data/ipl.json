@@ -1,0 +1,26 @@
+{
+    "teams": [
+        {
+            "id": "rcb",
+            "name": "Royal Challengers Bangalore",
+            "players": [
+                {
+                    "name": "Virat Kohli",
+                    "role": "Batsman",
+                    "matches": 237,
+                    "runs": 7263,
+                    "wickets": 4,
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Virat_Kohli.jpg"
+                },
+                {
+                    "name": "Faf du Plessis",
+                    "role": "Batsman",
+                    "matches": 130,
+                    "runs": 4133,
+                    "wickets": 0,
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Faf_du_Plessis.jpg"
+                }
+            ]
+        }
+    ]
+}

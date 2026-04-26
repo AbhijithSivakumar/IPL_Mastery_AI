@@ -1,0 +1,109 @@
+body {
+    font-family: Arial;
+    color: white;
+    text-align: center;
+
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)),
+        url("assets/bg/bg.jpg") center/cover;
+
+    background-attachment: fixed;
+}
+
+/* Layout */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Transparent Cards */
+.card {
+    background: rgba(30, 41, 59, 0.55);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 14px;
+    width: 30%;
+    margin: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 0 15px #38bdf8;
+}
+
+/* Buttons */
+button {
+    margin: 5px;
+    padding: 8px;
+    background: #38bdf8;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Teams */
+.team-card {
+    background: rgba(15, 23, 42, 0.8);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Team Colors */
+.mi {
+    border-left: 5px solid #004ba0;
+}
+
+.csk {
+    border-left: 5px solid #facc15;
+}
+
+.rcb {
+    border-left: 5px solid #dc2626;
+}
+
+.kkr {
+    border-left: 5px solid #7e22ce;
+}
+
+.rr {
+    border-left: 5px solid #ec4899;
+}
+
+.dc {
+    border-left: 5px solid #2563eb;
+}
+
+.srh {
+    border-left: 5px solid #f97316;
+}
+
+.pbks {
+    border-left: 5px solid #ef4444;
+}
+
+.gt {
+    border-left: 5px solid #0ea5e9;
+}
+
+.lsg {
+    border-left: 5px solid #22c55e;
+}
+
+/* Players */
+.player-card {
+    background: #1e293b;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+/* Quiz */
+.quiz-card {
+    background: #0f172a;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}

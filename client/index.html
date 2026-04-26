@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>IPL Mastery AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>🏏 IPL Mastery AI</h1>
+    <p class="tagline">Learn IPL like a pro 🚀</p>
+
+    <div class="container">
+
+        <!-- AI -->
+        <div class="card">
+            <h2>AI Assistant</h2>
+            <input id="question" placeholder="Ask about IPL...">
+            <button onclick="askAI()">Ask</button>
+            <p id="answer" style="white-space: pre-line;"></p>
+
+            <div class="suggestions">
+                <button onclick="askSample('How many teams in IPL?')">Teams</button>
+                <button onclick="askSample('Most runs')">Runs</button>
+                <button onclick="askSample('Tell me about Dhoni')">Dhoni</button>
+            </div>
+        </div>
+
+        <!-- Teams -->
+        <div class="card">
+            <h2>Teams</h2>
+            <button onclick="loadTeams()">Load Teams</button>
+            <div id="teams"></div>
+        </div>
+
+        <!-- Quiz -->
+        <div class="card">
+            <h2>Quiz</h2>
+            <button onclick="loadQuiz()">Start Quiz</button>
+            <div id="quiz"></div>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
